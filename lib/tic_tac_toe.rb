@@ -64,7 +64,7 @@ class TicTacToe
      end
   end
 
-  def won?(board)
+  def won?
 
   end
 
