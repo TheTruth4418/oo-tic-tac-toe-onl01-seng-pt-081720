@@ -64,7 +64,6 @@ class TicTacToe
      end
   end
 
-  def won?
     def won?
       WIN_COMBINATIONS.detect do |combo|
         if (@board[combo[0]]) == "X" && (@board[combo[1]]) == "X" && (@board[combo[2]]) == "X"
@@ -76,6 +75,5 @@ class TicTacToe
         end
       end
     end
-end
 # Asking the board if it has the index combinations listed in the conditions array by stepping through each one of the win combo elements
 end
