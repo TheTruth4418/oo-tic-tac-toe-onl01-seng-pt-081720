@@ -71,7 +71,7 @@ class TicTacToe
           return combo
         elsif (@board[combo[0]]) == "O" && (@board[combo[1]]) == "O" && (@board[combo[2]]) == "O"
           return combo
-        end
+        else
           false
       end
     end
