@@ -65,8 +65,7 @@ class TicTacToe
   end
 
   def won?(board)
-    combination = board.to_a
-    binding.pry
+
   end
 
 end
