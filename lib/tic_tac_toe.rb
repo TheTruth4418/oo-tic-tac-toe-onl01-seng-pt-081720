@@ -81,4 +81,8 @@ def full?
   @board.all?{|x| x != " "}
 end
 
+def draw?
+  self.full? && self.won? == false ? true : false
+end
+  
 end
