@@ -84,5 +84,5 @@ end
 def draw?
   self.full? && self.won? == false ? true : false
 end
-  
+
 end
