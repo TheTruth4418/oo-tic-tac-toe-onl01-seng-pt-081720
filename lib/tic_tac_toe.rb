@@ -99,4 +99,16 @@ def winner
   end
 end
 
+def play
+  until self.over? == true
+    turn
+  end
+
+  if won?
+    puts "The winner is #{winner}!"
+  else
+    puts "Ypu had a draw!"
+  end
+end
+
 end
