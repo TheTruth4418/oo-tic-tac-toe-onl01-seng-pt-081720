@@ -100,7 +100,7 @@ def winner
 end
 
 def play
-  until self.over? == true
+  until self.over?
     turn
   end
 
