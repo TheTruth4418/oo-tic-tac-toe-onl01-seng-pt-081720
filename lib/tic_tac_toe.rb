@@ -64,8 +64,12 @@ class TicTacToe
      end
   end
 
-def won?
-
-end
+  def won?(board)
+    combination = board.to_a
+    if WIN_COMBINATIONS.include?(combination)
+      return combination
+    end
+    false
+  end
 
 end
