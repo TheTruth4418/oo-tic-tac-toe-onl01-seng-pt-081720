@@ -77,7 +77,7 @@ class TicTacToe
     end
 # Asking the board if it has the index combinations listed in the conditions array by stepping through each one of the win combo elements
 
-  def full
+  def full?
     @board.all?{|x| x != " "}
   end
 
