@@ -75,6 +75,6 @@ class TicTacToe
           false
       end
     end
-
+end
 # Asking the board if it has the index combinations listed in the conditions array by stepping through each one of the win combo elements
 end
