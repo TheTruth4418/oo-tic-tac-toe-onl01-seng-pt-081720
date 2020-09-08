@@ -80,6 +80,6 @@ class TicTacToe
   def full
     @board.all?{|x| != " "}
   end
-  
+
 end
 end
