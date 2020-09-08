@@ -85,7 +85,7 @@ def draw?
 end
 
 def over?
-  self.draw?
+  self.draw? || self.win?
 end
 
 end
