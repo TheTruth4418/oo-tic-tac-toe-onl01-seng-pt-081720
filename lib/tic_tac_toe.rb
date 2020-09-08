@@ -107,7 +107,7 @@ def play
   if won?
     puts "Congratulations #{winner}!"
   else
-    puts "You had a draw!"
+    puts "Cats Game!"
   end
 end
 
