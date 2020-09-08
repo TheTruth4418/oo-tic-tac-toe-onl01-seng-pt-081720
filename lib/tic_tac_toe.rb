@@ -85,7 +85,7 @@ def draw?
 end
 
 def over?
-  self.draw? || self.won?
+  self.draw? || self.won? || self.full?
 end
 
 def winner
@@ -107,7 +107,7 @@ def play
   if won?
     puts "The winner is #{winner}!"
   else
-    puts "Ypu had a draw!"
+    puts "You had a draw!"
   end
 end
 
