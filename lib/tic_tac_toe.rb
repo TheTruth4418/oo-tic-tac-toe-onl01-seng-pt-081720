@@ -82,7 +82,7 @@ def full?
 end
 
 def draw?
-  self.full? && self.won? == false ? true : false
+  self.full? && !self.won? ? true : false
   binding.pry
 end
 
